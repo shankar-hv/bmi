@@ -1,5 +1,5 @@
 name = input("Enter your name: ").capitalize()
-weight = int(input("Enter your weight in kg: "))
+weight = float(input("Enter your weight in kg: "))
 height = float(input("Enter your height in metre: "))
 
 bmi = weight // (height ** 2)
